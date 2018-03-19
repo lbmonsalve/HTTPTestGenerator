@@ -878,9 +878,9 @@ Protected Module zlib
 	#tag EndConstant
 
 	#tag Constant, Name = zlib1, Type = String, Dynamic = False, Default = \"", Scope = Private
-		#Tag Instance, Platform = Windows, Language = Default, Definition  = \"zlib1.dll"
-		#Tag Instance, Platform = Mac OS, Language = Default, Definition  = \"/usr/lib/libz.dylib"
-		#Tag Instance, Platform = Linux, Language = Default, Definition  = \"libz.so.1"
+		#Tag Instance, Platform = Mac OS, Language = Default, Definition  = \"zlib1.dll"
+		#Tag Instance, Platform = -, Language = Default, Definition  = \"/usr/lib/libz.dylib"
+		#Tag Instance, Platform = Mac Classic, Language = Default, Definition  = \"libz.so.1"
 	#tag EndConstant
 
 	#tag Constant, Name = Z_ASCII, Type = Double, Dynamic = False, Default = \"Z_TEXT", Scope = Protected
